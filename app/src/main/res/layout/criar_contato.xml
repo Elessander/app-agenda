@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#5bb1b7"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar novo contato"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp">
+        </TextView>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Digite o nome do contato"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="23sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/nome_do_contato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Digite o telefone do contato"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="23sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="phone"
+            android:id="@+id/telefone_do_contato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Digite o e-mail do contato"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="23sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email_do_contato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Digite o nascimento do contato"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="23sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="date"
+            android:id="@+id/nascimento_do_contato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Digite uma descrição do contato"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="23sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/descricao_do_contato"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar contato"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:padding="18dp"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_adiciona_contato">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
